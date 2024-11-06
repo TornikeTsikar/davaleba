@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+        android:padding="32dp"
+        android:background="@drawable/rounded_background"
+    android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textViewGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Button to Increase Number"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="24dp"
+        android:padding="10dp"
+        android:textColor="#2A2C2A"/>
+
+    <Button
+        android:id="@+id/buttonOkay"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>
